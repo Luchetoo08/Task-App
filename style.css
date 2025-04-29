@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía tipo máquina de escribir */
+    background: #000;
+    color: #ff3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.page {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #ff3c3c33;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+.page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3c3c;
+}
+
+#myinput {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ff3c3c;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #ff3c3c;
+    caret-color: #ff3c3c;
+}
+
+#mybutton {
+    padding: 10px 20px;
+    background-color: #ff3c3c;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mybutton:hover {
+    background-color: #ff0000;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ff3c3c;
+}
+
+#mytaskText {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mytask {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #ff3c3c;
+    border-radius: 6px;
+    color: #ff3c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mytaskText {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+#mytaskDelete {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ff3c3c;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
